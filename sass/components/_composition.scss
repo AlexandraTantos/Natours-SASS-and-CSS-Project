@@ -9,6 +9,12 @@
     z-index: 10;
     transition: all 0.2s;
     outline-offset: 2rem;
+      @include respond(tab-port) {
+            float: left;
+            position: relative;
+            width: 33.33333333%;
+            box-shadow: 0 1.5rem 3rem rgba($color-black, .2);
+        }
 
     &--p1 {
       left: 0;
